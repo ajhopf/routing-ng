@@ -1,0 +1,6 @@
+<div class="container">
+  <h2>Bem vindo, {{ userFirstName | titlecase }}!</h2>
+  <p *ngIf="userAge">Você tem {{ userAge }} anos</p>
+  <p *ngIf="userNickname">Seu apelido é {{ userNickname }}</p>
+</div>
+<app-list></app-list>
